@@ -1,0 +1,25 @@
+Model Description:
+ref_model_deeplabv3plus
+
+Optimizer and Parameters:
+torch.optim.Adam(model.parameters(), lr=0.001 , weight_decay = 0.001)
+
+Loss Function:
+JDTLoss(alpha=1, beta=1, gamma = 1.0 ,device = device).to(device)
+
+Logical Batch Size: 8
+Batch Size: 8
+
+Average Training Time per Epoch: 22.5120 seconds
+mIOU across all classes:
+0.2571
+
+mIOU for each class:
+Class 0: 0.6935
+Class 1: 0.4261
+Class 2: 0.2919
+Class 3: 0.1604
+Class 4: 0.2068
+Class 5: 0.0963
+Class 6: 0.1508
+Class 7: 0.0307

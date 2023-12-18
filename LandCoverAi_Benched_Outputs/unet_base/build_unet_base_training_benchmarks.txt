@@ -1,0 +1,22 @@
+Model Description:
+build_unet_base
+
+Optimizer and Parameters:
+torch.optim.Adam(model.parameters(), lr=0.001 , weight_decay = 0.001)
+
+Loss Function:
+JDTLoss(alpha=1, beta=1, gamma = 1.0 ,device = device).to(device)
+
+Logical Batch Size: 8
+Batch Size: 8
+
+Average Training Time per Epoch: 730.9526 seconds
+mIOU across all classes:
+0.3246
+
+mIOU for each class:
+Class 0: 0.6469
+Class 1: 0.0812
+Class 2: 0.5562
+Class 3: 0.1950
+Class 4: 0.1440

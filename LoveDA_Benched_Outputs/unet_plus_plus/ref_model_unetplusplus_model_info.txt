@@ -1,0 +1,529 @@
+encoder.conv1.weight torch.Size([64, 3, 7, 7])
+Number of parameters at this level: 9408
+
+encoder.bn1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.bn1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.0.conv1.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+encoder.layer1.0.bn1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.0.bn1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.0.conv2.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+encoder.layer1.0.bn2.weight torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.0.bn2.bias torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.1.conv1.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+encoder.layer1.1.bn1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.1.bn1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.1.conv2.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+encoder.layer1.1.bn2.weight torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.1.bn2.bias torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.2.conv1.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+encoder.layer1.2.bn1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.2.bn1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.2.conv2.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+encoder.layer1.2.bn2.weight torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer1.2.bn2.bias torch.Size([64])
+Number of parameters at this level: 64
+
+encoder.layer2.0.conv1.weight torch.Size([128, 64, 3, 3])
+Number of parameters at this level: 73728
+
+encoder.layer2.0.bn1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.0.bn1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.0.conv2.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+encoder.layer2.0.bn2.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.0.bn2.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.0.downsample.0.weight torch.Size([128, 64, 1, 1])
+Number of parameters at this level: 8192
+
+encoder.layer2.0.downsample.1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.0.downsample.1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.1.conv1.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+encoder.layer2.1.bn1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.1.bn1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.1.conv2.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+encoder.layer2.1.bn2.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.1.bn2.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.2.conv1.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+encoder.layer2.2.bn1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.2.bn1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.2.conv2.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+encoder.layer2.2.bn2.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.2.bn2.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.3.conv1.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+encoder.layer2.3.bn1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.3.bn1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.3.conv2.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+encoder.layer2.3.bn2.weight torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer2.3.bn2.bias torch.Size([128])
+Number of parameters at this level: 128
+
+encoder.layer3.0.conv1.weight torch.Size([256, 128, 3, 3])
+Number of parameters at this level: 294912
+
+encoder.layer3.0.bn1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.0.bn1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.0.conv2.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.0.bn2.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.0.bn2.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.0.downsample.0.weight torch.Size([256, 128, 1, 1])
+Number of parameters at this level: 32768
+
+encoder.layer3.0.downsample.1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.0.downsample.1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.1.conv1.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.1.bn1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.1.bn1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.1.conv2.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.1.bn2.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.1.bn2.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.2.conv1.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.2.bn1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.2.bn1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.2.conv2.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.2.bn2.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.2.bn2.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.3.conv1.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.3.bn1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.3.bn1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.3.conv2.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.3.bn2.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.3.bn2.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.4.conv1.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.4.bn1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.4.bn1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.4.conv2.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.4.bn2.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.4.bn2.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.5.conv1.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.5.bn1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.5.bn1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.5.conv2.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+encoder.layer3.5.bn2.weight torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer3.5.bn2.bias torch.Size([256])
+Number of parameters at this level: 256
+
+encoder.layer4.0.conv1.weight torch.Size([512, 256, 3, 3])
+Number of parameters at this level: 1179648
+
+encoder.layer4.0.bn1.weight torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.0.bn1.bias torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.0.conv2.weight torch.Size([512, 512, 3, 3])
+Number of parameters at this level: 2359296
+
+encoder.layer4.0.bn2.weight torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.0.bn2.bias torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.0.downsample.0.weight torch.Size([512, 256, 1, 1])
+Number of parameters at this level: 131072
+
+encoder.layer4.0.downsample.1.weight torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.0.downsample.1.bias torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.1.conv1.weight torch.Size([512, 512, 3, 3])
+Number of parameters at this level: 2359296
+
+encoder.layer4.1.bn1.weight torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.1.bn1.bias torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.1.conv2.weight torch.Size([512, 512, 3, 3])
+Number of parameters at this level: 2359296
+
+encoder.layer4.1.bn2.weight torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.1.bn2.bias torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.2.conv1.weight torch.Size([512, 512, 3, 3])
+Number of parameters at this level: 2359296
+
+encoder.layer4.2.bn1.weight torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.2.bn1.bias torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.2.conv2.weight torch.Size([512, 512, 3, 3])
+Number of parameters at this level: 2359296
+
+encoder.layer4.2.bn2.weight torch.Size([512])
+Number of parameters at this level: 512
+
+encoder.layer4.2.bn2.bias torch.Size([512])
+Number of parameters at this level: 512
+
+decoder.blocks.x_0_0.conv1.0.weight torch.Size([256, 768, 3, 3])
+Number of parameters at this level: 1769472
+
+decoder.blocks.x_0_0.conv1.1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+decoder.blocks.x_0_0.conv1.1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+decoder.blocks.x_0_0.conv2.0.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+decoder.blocks.x_0_0.conv2.1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+decoder.blocks.x_0_0.conv2.1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+decoder.blocks.x_0_1.conv1.0.weight torch.Size([128, 512, 3, 3])
+Number of parameters at this level: 589824
+
+decoder.blocks.x_0_1.conv1.1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_0_1.conv1.1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_0_1.conv2.0.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+decoder.blocks.x_0_1.conv2.1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_0_1.conv2.1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_1_1.conv1.0.weight torch.Size([128, 384, 3, 3])
+Number of parameters at this level: 442368
+
+decoder.blocks.x_1_1.conv1.1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_1_1.conv1.1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_1_1.conv2.0.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+decoder.blocks.x_1_1.conv2.1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_1_1.conv2.1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+decoder.blocks.x_0_2.conv1.0.weight torch.Size([64, 320, 3, 3])
+Number of parameters at this level: 184320
+
+decoder.blocks.x_0_2.conv1.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_0_2.conv1.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_0_2.conv2.0.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+decoder.blocks.x_0_2.conv2.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_0_2.conv2.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_1_2.conv1.0.weight torch.Size([64, 256, 3, 3])
+Number of parameters at this level: 147456
+
+decoder.blocks.x_1_2.conv1.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_1_2.conv1.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_1_2.conv2.0.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+decoder.blocks.x_1_2.conv2.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_1_2.conv2.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_2.conv1.0.weight torch.Size([64, 192, 3, 3])
+Number of parameters at this level: 110592
+
+decoder.blocks.x_2_2.conv1.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_2.conv1.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_2.conv2.0.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+decoder.blocks.x_2_2.conv2.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_2.conv2.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_0_3.conv1.0.weight torch.Size([32, 320, 3, 3])
+Number of parameters at this level: 92160
+
+decoder.blocks.x_0_3.conv1.1.weight torch.Size([32])
+Number of parameters at this level: 32
+
+decoder.blocks.x_0_3.conv1.1.bias torch.Size([32])
+Number of parameters at this level: 32
+
+decoder.blocks.x_0_3.conv2.0.weight torch.Size([32, 32, 3, 3])
+Number of parameters at this level: 9216
+
+decoder.blocks.x_0_3.conv2.1.weight torch.Size([32])
+Number of parameters at this level: 32
+
+decoder.blocks.x_0_3.conv2.1.bias torch.Size([32])
+Number of parameters at this level: 32
+
+decoder.blocks.x_1_3.conv1.0.weight torch.Size([64, 256, 3, 3])
+Number of parameters at this level: 147456
+
+decoder.blocks.x_1_3.conv1.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_1_3.conv1.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_1_3.conv2.0.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+decoder.blocks.x_1_3.conv2.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_1_3.conv2.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_3.conv1.0.weight torch.Size([64, 192, 3, 3])
+Number of parameters at this level: 110592
+
+decoder.blocks.x_2_3.conv1.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_3.conv1.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_3.conv2.0.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+decoder.blocks.x_2_3.conv2.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_2_3.conv2.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_3_3.conv1.0.weight torch.Size([64, 128, 3, 3])
+Number of parameters at this level: 73728
+
+decoder.blocks.x_3_3.conv1.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_3_3.conv1.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_3_3.conv2.0.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+decoder.blocks.x_3_3.conv2.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_3_3.conv2.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+decoder.blocks.x_0_4.conv1.0.weight torch.Size([16, 32, 3, 3])
+Number of parameters at this level: 4608
+
+decoder.blocks.x_0_4.conv1.1.weight torch.Size([16])
+Number of parameters at this level: 16
+
+decoder.blocks.x_0_4.conv1.1.bias torch.Size([16])
+Number of parameters at this level: 16
+
+decoder.blocks.x_0_4.conv2.0.weight torch.Size([16, 16, 3, 3])
+Number of parameters at this level: 2304
+
+decoder.blocks.x_0_4.conv2.1.weight torch.Size([16])
+Number of parameters at this level: 16
+
+decoder.blocks.x_0_4.conv2.1.bias torch.Size([16])
+Number of parameters at this level: 16
+
+segmentation_head.0.weight torch.Size([8, 16, 3, 3])
+Number of parameters at this level: 1152
+
+segmentation_head.0.bias torch.Size([8])
+Number of parameters at this level: 8
+
+Total number of parameters in the model: 26079624

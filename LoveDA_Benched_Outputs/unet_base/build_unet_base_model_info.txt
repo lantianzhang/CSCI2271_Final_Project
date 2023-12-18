@@ -1,0 +1,256 @@
+e1.conv.ConvBlock.0.weight torch.Size([64, 3, 3, 3])
+Number of parameters at this level: 1728
+
+e1.conv.ConvBlock.0.bias torch.Size([64])
+Number of parameters at this level: 64
+
+e1.conv.ConvBlock.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+e1.conv.ConvBlock.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+e1.conv.ConvBlock.3.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+e1.conv.ConvBlock.3.bias torch.Size([64])
+Number of parameters at this level: 64
+
+e1.conv.ConvBlock.4.weight torch.Size([64])
+Number of parameters at this level: 64
+
+e1.conv.ConvBlock.4.bias torch.Size([64])
+Number of parameters at this level: 64
+
+e2.conv.ConvBlock.0.weight torch.Size([128, 64, 3, 3])
+Number of parameters at this level: 73728
+
+e2.conv.ConvBlock.0.bias torch.Size([128])
+Number of parameters at this level: 128
+
+e2.conv.ConvBlock.1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+e2.conv.ConvBlock.1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+e2.conv.ConvBlock.3.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+e2.conv.ConvBlock.3.bias torch.Size([128])
+Number of parameters at this level: 128
+
+e2.conv.ConvBlock.4.weight torch.Size([128])
+Number of parameters at this level: 128
+
+e2.conv.ConvBlock.4.bias torch.Size([128])
+Number of parameters at this level: 128
+
+e3.conv.ConvBlock.0.weight torch.Size([256, 128, 3, 3])
+Number of parameters at this level: 294912
+
+e3.conv.ConvBlock.0.bias torch.Size([256])
+Number of parameters at this level: 256
+
+e3.conv.ConvBlock.1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+e3.conv.ConvBlock.1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+e3.conv.ConvBlock.3.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+e3.conv.ConvBlock.3.bias torch.Size([256])
+Number of parameters at this level: 256
+
+e3.conv.ConvBlock.4.weight torch.Size([256])
+Number of parameters at this level: 256
+
+e3.conv.ConvBlock.4.bias torch.Size([256])
+Number of parameters at this level: 256
+
+e4.conv.ConvBlock.0.weight torch.Size([512, 256, 3, 3])
+Number of parameters at this level: 1179648
+
+e4.conv.ConvBlock.0.bias torch.Size([512])
+Number of parameters at this level: 512
+
+e4.conv.ConvBlock.1.weight torch.Size([512])
+Number of parameters at this level: 512
+
+e4.conv.ConvBlock.1.bias torch.Size([512])
+Number of parameters at this level: 512
+
+e4.conv.ConvBlock.3.weight torch.Size([512, 512, 3, 3])
+Number of parameters at this level: 2359296
+
+e4.conv.ConvBlock.3.bias torch.Size([512])
+Number of parameters at this level: 512
+
+e4.conv.ConvBlock.4.weight torch.Size([512])
+Number of parameters at this level: 512
+
+e4.conv.ConvBlock.4.bias torch.Size([512])
+Number of parameters at this level: 512
+
+b.ConvBlock.0.weight torch.Size([1024, 512, 3, 3])
+Number of parameters at this level: 4718592
+
+b.ConvBlock.0.bias torch.Size([1024])
+Number of parameters at this level: 1024
+
+b.ConvBlock.1.weight torch.Size([1024])
+Number of parameters at this level: 1024
+
+b.ConvBlock.1.bias torch.Size([1024])
+Number of parameters at this level: 1024
+
+b.ConvBlock.3.weight torch.Size([1024, 1024, 3, 3])
+Number of parameters at this level: 9437184
+
+b.ConvBlock.3.bias torch.Size([1024])
+Number of parameters at this level: 1024
+
+b.ConvBlock.4.weight torch.Size([1024])
+Number of parameters at this level: 1024
+
+b.ConvBlock.4.bias torch.Size([1024])
+Number of parameters at this level: 1024
+
+d1.up.weight torch.Size([1024, 512, 2, 2])
+Number of parameters at this level: 2097152
+
+d1.up.bias torch.Size([512])
+Number of parameters at this level: 512
+
+d1.conv.ConvBlock.0.weight torch.Size([512, 1024, 3, 3])
+Number of parameters at this level: 4718592
+
+d1.conv.ConvBlock.0.bias torch.Size([512])
+Number of parameters at this level: 512
+
+d1.conv.ConvBlock.1.weight torch.Size([512])
+Number of parameters at this level: 512
+
+d1.conv.ConvBlock.1.bias torch.Size([512])
+Number of parameters at this level: 512
+
+d1.conv.ConvBlock.3.weight torch.Size([512, 512, 3, 3])
+Number of parameters at this level: 2359296
+
+d1.conv.ConvBlock.3.bias torch.Size([512])
+Number of parameters at this level: 512
+
+d1.conv.ConvBlock.4.weight torch.Size([512])
+Number of parameters at this level: 512
+
+d1.conv.ConvBlock.4.bias torch.Size([512])
+Number of parameters at this level: 512
+
+d2.up.weight torch.Size([512, 256, 2, 2])
+Number of parameters at this level: 524288
+
+d2.up.bias torch.Size([256])
+Number of parameters at this level: 256
+
+d2.conv.ConvBlock.0.weight torch.Size([256, 512, 3, 3])
+Number of parameters at this level: 1179648
+
+d2.conv.ConvBlock.0.bias torch.Size([256])
+Number of parameters at this level: 256
+
+d2.conv.ConvBlock.1.weight torch.Size([256])
+Number of parameters at this level: 256
+
+d2.conv.ConvBlock.1.bias torch.Size([256])
+Number of parameters at this level: 256
+
+d2.conv.ConvBlock.3.weight torch.Size([256, 256, 3, 3])
+Number of parameters at this level: 589824
+
+d2.conv.ConvBlock.3.bias torch.Size([256])
+Number of parameters at this level: 256
+
+d2.conv.ConvBlock.4.weight torch.Size([256])
+Number of parameters at this level: 256
+
+d2.conv.ConvBlock.4.bias torch.Size([256])
+Number of parameters at this level: 256
+
+d3.up.weight torch.Size([256, 128, 2, 2])
+Number of parameters at this level: 131072
+
+d3.up.bias torch.Size([128])
+Number of parameters at this level: 128
+
+d3.conv.ConvBlock.0.weight torch.Size([128, 256, 3, 3])
+Number of parameters at this level: 294912
+
+d3.conv.ConvBlock.0.bias torch.Size([128])
+Number of parameters at this level: 128
+
+d3.conv.ConvBlock.1.weight torch.Size([128])
+Number of parameters at this level: 128
+
+d3.conv.ConvBlock.1.bias torch.Size([128])
+Number of parameters at this level: 128
+
+d3.conv.ConvBlock.3.weight torch.Size([128, 128, 3, 3])
+Number of parameters at this level: 147456
+
+d3.conv.ConvBlock.3.bias torch.Size([128])
+Number of parameters at this level: 128
+
+d3.conv.ConvBlock.4.weight torch.Size([128])
+Number of parameters at this level: 128
+
+d3.conv.ConvBlock.4.bias torch.Size([128])
+Number of parameters at this level: 128
+
+d4.up.weight torch.Size([128, 64, 2, 2])
+Number of parameters at this level: 32768
+
+d4.up.bias torch.Size([64])
+Number of parameters at this level: 64
+
+d4.conv.ConvBlock.0.weight torch.Size([64, 128, 3, 3])
+Number of parameters at this level: 73728
+
+d4.conv.ConvBlock.0.bias torch.Size([64])
+Number of parameters at this level: 64
+
+d4.conv.ConvBlock.1.weight torch.Size([64])
+Number of parameters at this level: 64
+
+d4.conv.ConvBlock.1.bias torch.Size([64])
+Number of parameters at this level: 64
+
+d4.conv.ConvBlock.3.weight torch.Size([64, 64, 3, 3])
+Number of parameters at this level: 36864
+
+d4.conv.ConvBlock.3.bias torch.Size([64])
+Number of parameters at this level: 64
+
+d4.conv.ConvBlock.4.weight torch.Size([64])
+Number of parameters at this level: 64
+
+d4.conv.ConvBlock.4.bias torch.Size([64])
+Number of parameters at this level: 64
+
+outputs.weight torch.Size([8, 64, 1, 1])
+Number of parameters at this level: 512
+
+outputs.bias torch.Size([8])
+Number of parameters at this level: 8
+
+Total number of parameters in the model: 31043976
+
+Total params: 31,043,976
+Trainable params: 31,043,976
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 3.00
+Forward/backward pass size (MB): 713027708.00
+Params size (MB): 118.42
+Estimated Total Size (MB): 713027829.42

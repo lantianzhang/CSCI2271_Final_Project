@@ -1,6 +1,6 @@
 # This project was made for the CSCI2271 Final Project Requirement  
 
-## Acknodeglements  
+## Acknowledgements   
 We express our thanks to the maintainers and providers of segmentation-models-pytorch for the implementation of UNet++ and Deeplabv3+ https://github.com/qubvel/segmentation_models.pytorch?tab=readme-ov-file and JDTLoss function https://github.com/zifuwanggg/JDTLosses https://arxiv.org/abs/2302.05666  
 
 We would also like to thank Professor Fergus for introducing us to the world of computer vision in this course. 
